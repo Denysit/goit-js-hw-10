@@ -67,7 +67,7 @@ form.addEventListener('submit', event => {
         messageColor: '#FFF',
         position: 'topRight',
         backgroundColor: '#59A10D',
-        iconUrl: './img/bi_check2-circle.svg',
+        iconUrl: '../img/bi_check2-circle.svg',
 
 });
     })
