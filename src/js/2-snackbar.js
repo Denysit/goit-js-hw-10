@@ -2,8 +2,6 @@
 
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
-import iconSucsses from "../img/bi_check2-circle.svg";
-import iconError from "../img/bi_x-octagon.svg";
 
 
 const section = document.querySelector('section');
@@ -62,28 +60,26 @@ form.addEventListener('submit', event => {
 
   promise
     .then(success => {
-      iziToast.show({
+      iziToast.success({
         title: 'OK',
         titleColor: '#FFF',
         message: `Fulfilled promise in ${delay}ms`,
         messageColor: '#FFF',
         position: 'topRight',
-        backgroundColor: '#59A10D',
-        iconUrl: '.././img/bi_check2-circle.svg',
-        // icon: 'bi:check2-circle',
+        backgroundColor: '#59A10D'
 
 });
     })
 
     .catch(error => {
-      iziToast.show({
+      iziToast.error({
         message: `Rejected promise in ${delay}ms`,
         title: 'Error',
         titleColor: '#FFF',
         messageColor: '#FFF',
         position: 'topRight',
-        backgroundColor: '#EF4040',
-        iconUrl: './img/bi_x-octagon.svg',
+        backgroundColor: '#EF4040'
+
 
 });
       

@@ -54,8 +54,7 @@ const options = {
       titleColor: '#FFF',
       messageColor: '#FFF',
       backgroundColor: '#EF4040',
-      closeOnEscape: true,
-      iconUrl: './img/bi_x-octagon.svg',
+      closeOnEscape: true
         });
         startButton.disabled = true;
       } else {
