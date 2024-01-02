@@ -1,0 +1,131 @@
+section { margin-bottom: 50px;}
+
+.flatpickr-input {
+    border-radius: 4px;
+    background: #FFF;
+    padding-right: 16px;
+    padding-left: 16px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #808080;
+    height: 35px;
+    width: 250px;
+    
+color: #2E2F42;
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+}
+
+.flatpickr-input:hover {
+border-radius: 4px;
+border: 1px solid #000;
+}
+.flatpickr-input:focus{ 
+border-radius: 4px;
+border: 1px solid #4E75FF;
+}
+
+button[data-start]:disabled {
+    display: inline-flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #CFCFCF;
+    outline: none;
+    border: none;
+
+    color: #989898;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+}
+
+[data-start] {
+display: inline-flex;
+padding: 8px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: #4E75FF;
+outline: none;
+border: none;
+
+color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.64px;
+}
+
+[data-start]:hover{background: #6C8CFF;}
+
+
+.flatpickr-calendar {color: #333;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+   }
+
+.flatpickr-months { margin-bottom: 16px}
+
+.flatpickr-weekdays { color: #2E2F42;
+    font-weight: 500;
+    line-height: 1.5;}
+
+.timer {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin-top: 32px;
+    width: 346px;
+    height: 82px;
+    }
+
+.field { 
+    width: auto;
+    height: auto;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.value {
+    color: #2E2F42;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 1.6px;
+}
+
+.label{
+    color: #2E2F42;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 24px;
+    height: 82px;}
+
+.container-timer { 
+    margin-left: 35%;
+}
