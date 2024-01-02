@@ -80,7 +80,7 @@ form.addEventListener('submit', event => {
         messageColor: '#FFF',
         position: 'topRight',
         backgroundColor: '#EF4040',
-        iconUrl: './img/bi_x-octagon.svg',
+        iconUrl: '../img/bi_x-octagon.svg',
 
 });
       
