@@ -2,8 +2,8 @@
 
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
-// import iconSucsses from "../img/bi_check2-circle.svg";
-// import iconError from "../img/bi_x-octagon.svg";
+import iconSucsses from "../img/bi_check2-circle.svg";
+import iconError from "../img/bi_x-octagon.svg";
 
 
 const section = document.querySelector('section');
@@ -69,7 +69,8 @@ form.addEventListener('submit', event => {
         messageColor: '#FFF',
         position: 'topRight',
         backgroundColor: '#59A10D',
-        iconUrl: '/img/bi_check2-circle.svg',
+        iconUrl: '.././img/bi_check2-circle.svg',
+        // icon: 'bi:check2-circle',
 
 });
     })
@@ -82,7 +83,7 @@ form.addEventListener('submit', event => {
         messageColor: '#FFF',
         position: 'topRight',
         backgroundColor: '#EF4040',
-        iconUrl: '/img/bi_x-octagon.svg',
+        iconUrl: './img/bi_x-octagon.svg',
 
 });
       
